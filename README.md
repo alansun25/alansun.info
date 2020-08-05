@@ -1,2 +1,2 @@
-# alansun25.github.io
+# alansun.info
 My personal website

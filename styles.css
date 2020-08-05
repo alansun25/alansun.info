@@ -96,6 +96,10 @@ a:hover {
   padding-top: 2em;
 }
 
+.recaptcha {
+  margin: auto;
+}
+
 @media (max-width: 800px) {
   .carousel-item img {
     width: 70%;

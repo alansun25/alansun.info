@@ -138,4 +138,8 @@ a:hover {
   .form-box {
     width: 100%;
   }
+
+  .sendit {
+    margin-bottom: 2em;
+  }
 }

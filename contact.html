@@ -46,8 +46,12 @@
           <textarea name="message" class="form-control" rows="5" id="message"></textarea>
         </div>
         <div class="row text-center">
-          <div data-netlify-recaptcha="true" class="col g-recaptcha"></div>
-          <button name="submit" type="submit" class="col btn btn-outline-dark mt-2"><i class="fas fa-arrow-right"></i></button>
+          <div class="col">
+            <div data-netlify-recaptcha="true" class="g-recaptcha"></div>
+          </div>
+          <div class="col">
+            <button name="submit" type="submit" class="btn btn-outline-dark mt-2"><i class="fas fa-arrow-right"></i></button>
+          </div>
         </div>
       </form>
     </div>

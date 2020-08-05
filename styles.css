@@ -138,4 +138,8 @@ a:hover {
   .form-box {
     width: 100%;
   }
+
+  .recap {
+    padding-left: 5.5em;
+  }
 }

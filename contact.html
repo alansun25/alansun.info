@@ -28,7 +28,7 @@
     </nav>
 
     <div class="container main form-box">
-      <form class="pl-5 pr-5" method="POST" data-netlify="true">
+      <form class="pl-5 pr-5" method="POST" data-netlify-recaptcha="true" data-netlify="true">
         <div class="form-group">
           <label for="name">name</label>
           <input name="name" type="text" class="form-control" id="name">
@@ -46,7 +46,7 @@
           <textarea name="message" class="form-control" rows="5" id="message"></textarea>
         </div>
         <div class="row text-center">
-          <div data-netlify-recaptcha="true" class="g-recaptcha"></div>
+          <div data-netlify-recaptcha="true" class="recaptcha"></div>
           <div class="col">
             <button name="submit" type="submit" class="btn btn-outline-dark mt-2"><i class="fas fa-arrow-right"></i></button>
           </div>

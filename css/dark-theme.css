@@ -46,3 +46,7 @@ svg, .diff {
 .btn {
   border-color: #e9befe;
 }
+
+.btn:hover {
+  box-shadow: 5px 5px 10px white, -5px -5px 10px #e9befe;
+}

@@ -42,3 +42,7 @@ svg, .diff {
   color: white;
   text-decoration: underline;
 }
+
+.btn {
+  border-color: #e9befe;
+}

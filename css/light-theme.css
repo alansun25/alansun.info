@@ -10,10 +10,15 @@ body {
 
 .name {
   text-shadow: 5px 5px 10px #f506e6, -5px -5px 10px #06eef5;
+  transition: text-shadow 0.3s ease-in-out;
 }
 
 .about p {
   text-shadow: 3px 3px 5px #b7b7b7;
+}
+
+svg, .diff {
+  stroke: #000000;
 }
 
 .link-style {

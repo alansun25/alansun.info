@@ -21,11 +21,11 @@ svg, .diff {
   stroke: #e9befe;
 }
 
-.link-style {
+.link-style, .link-style-special {
   color: #e9befe;
 }
 
-.link-style:hover {
+.link-style:hover, .link-style-special:hover {
   color: white;
   text-decoration: underline;
 }

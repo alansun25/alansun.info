@@ -27,10 +27,19 @@ svg, .diff {
   transition: text-shadow 0.3s ease-in-out;
 }
 
+.link-style-special {
+  color: black;
+  text-decoration: underline;
+}
+
 .link-style:hover {
   text-shadow: 8px 8px 8px #f506e6, -8px -8px 8px #06eef5;
   color: black;
   text-decoration: none;
+}
+
+.link-style-special:hover {
+  color: gray;
 }
 
 .card {

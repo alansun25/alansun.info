@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+  color: white;
+}
+
+.name {
+  color: #e9befe;
+}
+
+.about p {
+  text-shadow: 5px 5px 5px #lightgray;
+}
+
+svg, .diff {
+  stroke: #e9befe;
+}
+
+.link-style {
+  color: #e9befe;
+}
+
+.link-style:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.card {
+  background-color: #000000;
+}
+
+.proj-head {
+  color: #e9befe;
+}
+
+.proj-head:hover {
+  color: white;
+  text-decoration: underline;
+}

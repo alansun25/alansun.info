@@ -7,7 +7,6 @@
 body {
   font-family: 'Work Sans', sans-serif;
   font-weight: 400;
-  background-color: hsl(0, 0%, 98%);
   position: relative;
 }
 
@@ -16,6 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar {
+  margin: 0 auto;
   background: transparent;
 }
 
@@ -32,24 +32,8 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
 }
 
-.name {
-  text-shadow: 5px 5px 10px #f506e6, -5px -5px 10px #06eef5;
-}
-
 .about, .desc {
   font-size: 18px;
-}
-
-.link-style {
-  text-shadow: 5px 5px 10px #f506e6, -5px -5px 10px #06eef5;
-  color: black;
-  transition: text-shadow 0.3s ease-in-out;
-}
-
-.link-style:hover {
-  text-shadow: 8px 8px 8px #f506e6, -8px -8px 8px #06eef5;
-  color: black;
-  text-decoration: none;
 }
 
 .nav-item {
@@ -58,32 +42,21 @@ h1, h2, h3, h4, h5, h6 {
 
 .botnav {
   margin-top: 3em;
-  margin-bottom: 6em;
+  margin-bottom: 7em;
 }
 
+.linkedin-space {
+  margin-right: 0.25em;
+}
+
+.icon-tabler:hover,
 a:hover {
   cursor: pointer;
 }
 
 .icon-img,
-.icon-tabler {
+.icon-tabler, {
   margin-right: .5em;
-}
-
-.card {
-  background-color: hsl(0, 0%, 98%);
-}
-
-.proj-head {
-  text-shadow: 5px 5px 10px #f506e6, -5px -5px 10px #06eef5;
-  color: black;
-  transition: text-shadow 0.3s ease-in-out;
-}
-
-.proj-head:hover {
-  text-shadow: 8px 8px 8px #f506e6, -8px -8px 8px #06eef5;
-  color: black;
-  text-decoration: none;
 }
 
 .form-box {
@@ -115,7 +88,10 @@ a:hover {
     display: flex;
     justify-content: center;
     order: 1;
-    margin-left: 0.5em;
+  }
+
+  .links > a > svg {
+    margin: 0 0.2em;
   }
 
   .about {

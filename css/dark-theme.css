@@ -13,10 +13,6 @@ body {
   color: #e9befe;
 }
 
-.about p {
-  text-shadow: 5px 5px 5px #lightgray;
-}
-
 svg, .diff {
   stroke: #e9befe;
 }

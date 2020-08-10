@@ -13,7 +13,8 @@ body {
   transition: text-shadow 0.3s ease-in-out;
 }
 
-.about p {
+.about p,
+.desc {
   text-shadow: 3px 3px 5px #b7b7b7;
 }
 
@@ -60,4 +61,8 @@ svg, .diff {
 
 .btn:hover {
   box-shadow: 5px 5px 10px #f506e6, -5px -5px 10px #06eef5;
+}
+
+.sc {
+  box-shadow: 5px 5px 5px #b7b7b7;
 }

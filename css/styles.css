@@ -66,6 +66,10 @@ a:hover {
   border-color: transparent;
 }
 
+.project-container  {
+  margin-bottom: -3em;
+}
+
 @media (max-width: 800px) {
   .carousel-item img {
     width: 70%;
@@ -115,6 +119,10 @@ a:hover {
 
   .navbar-toggler-icon {
     padding-left: 0.75em;
+  }
+
+  .form-box {
+    margin-top: -2em;
   }
 }
 

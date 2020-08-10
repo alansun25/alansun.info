@@ -103,6 +103,8 @@ a:hover {
   .about {
     display: flex;
     order: 2;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   .botnav {

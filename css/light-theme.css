@@ -41,6 +41,7 @@ svg, .diff {
 
 .link-style-special:hover {
   color: gray;
+  cursor: pointer;
 }
 
 .card {

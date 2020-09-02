@@ -18,6 +18,10 @@ body {
   text-shadow: 3px 3px 5px #b7b7b7;
 }
 
+.proj-sub {
+  color: #848484;
+}
+
 svg, .diff {
   stroke: #000000;
 }

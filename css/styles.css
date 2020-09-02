@@ -73,7 +73,7 @@ a:hover {
 .ss {
   width: 100%;
   height: auto;
-  margin-left: -5%;
+  margin-bottom: 0.5em;
 }
 
 @media (max-width: 800px) {
